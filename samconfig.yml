@@ -1,8 +1,0 @@
-default:
-  deploy:
-    parameters:
-      stack_name: circle-ci-service
-      resolve_s3: true
-      region: us-east-1
-      capabilities: CAPABILITY_NAMED_IAM
-version: 0.1
